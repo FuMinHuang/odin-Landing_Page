@@ -15,6 +15,7 @@ ul {
     padding: 0px;
 }
 
+/* Hero section */
 .hero {
     background-color: #1f2937;
     height: 500px;
@@ -50,6 +51,7 @@ ul {
 .hero-content {
     padding-top: 80px;
     display: flex;
+    justify-content: center;
     gap:30px;
 }
 
@@ -59,6 +61,34 @@ ul {
     font-size: 48px;
 }
 
-img {
+.hero-content img {
     width: 600px;
+}
+
+/* Information Section */
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info {
+    width: 160px;
+    text-align: center;
+}
+
+.info img {
+    width: 160px;
+    border: 5px solid #3A7DF2;
+    border-radius: 10px;
 }
